@@ -4,7 +4,6 @@ from artifact import Artifact, Painting, Sculpture, give_name_artifact
 def give_name_main():
     return f"main name: {__name__}"
 
-
 if __name__ == "__main__":
     a1 = Artifact("a1", 1598)
     a2 = Artifact("a2", 1958)
@@ -21,3 +20,9 @@ if __name__ == "__main__":
     print(give_name_artifact())
     print(give_name_main())
     print(__name__)
+
+from renaissance import mona_lisa, david, florence_cathedral
+
+print(mona_lisa)
+print(david)
+print(florence_cathedral)
